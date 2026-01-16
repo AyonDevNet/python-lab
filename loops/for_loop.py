@@ -2,13 +2,18 @@
 #(like a list, string, or range) a predetermined number of times. 
 #It is used when the number of iterations is known or fixed.
 
+#range(start, stop, step)
 
+
+for numbers in range(1, 10, 2):
+    print(numbers)
 
 language = 'Python'
 
 for lan in language:
     print(lan, end= '')
-
+else:
+    print('Ended the for loop stoped')
 
 #print apple nAME 
 
