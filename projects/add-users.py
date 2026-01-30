@@ -15,7 +15,7 @@ def addUsers():
     }
 
     if userDetails == True:
-        print("❌ This user already exists")
+        print(" This user already exists")
     else:
         userers.append(userDetails)
         print("✅ User added successfully")
