@@ -1,0 +1,12 @@
+list in python that allow changeable and allow duplicate the elements.
+it is versatile data structure the allow to store multipale data type in single variable,
+
+fruits = ['apple', 'banana', 'orange', 'apple', 'cherry']
+
+A nested list in Python is simply a list that contains other lists inside it.
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+Why use nested lists?
+
+*** To represent 2D or multi-dimensional data, like matrices or grids.
+*** To group related data together in a structured way.
