@@ -12,5 +12,7 @@ elif 70 <= grade <= 79:
     print('You got A')
 elif 80 <= grade <= 100:
     print('You got A+')
+elif grade > 100:
+    print('result is not valid')
 else:
     print('You fail the exam')
