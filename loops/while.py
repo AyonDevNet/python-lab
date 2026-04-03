@@ -6,6 +6,13 @@
     #print('i am stuck in the loop')
 
 
+
+
+
+
+
+
+
 name = ''
 while len(name) == 0:
   name=input('Enter your name ')
