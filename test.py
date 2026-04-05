@@ -75,24 +75,24 @@
 # print(car1,car2,car3)
         
 
-class Car:
-    def __init__(self, color, car_type):
-        self.color = color
-        self.car_type = car_type
+# class Car:
+#     def __init__(self, color, car_type):
+#         self.color = color
+#         self.car_type = car_type
 
-    def start_engine(self):
-        print(f"{self.color} {self.car_type} car engine started")
+#     def start_engine(self):
+#         print(f"{self.color} {self.car_type} car engine started")
 
-    def __str__(self):
-        return f"Car(color={self.color}, type={self.car_type})"
+#     def __str__(self):
+#         return f"Car(color={self.color}, type={self.car_type})"
 
 
-# Create objects
-car1 = Car("red", "sports")
-car2 = Car("blue", "sedan")
+# # Create objects
+# car1 = Car("red", "sports")
+# car2 = Car("blue", "sedan")
 
-# Use objects
-print(car1)
-print(car2)
+# # Use objects
+# print(car1)
+# print(car2)
 
-car1.start_engine()
+# car1.start_engine()
