@@ -1,0 +1,37 @@
+1. What is a class in Python?
+==> A class is a blueprint for creating objects.
+Think about a car manufacturing company. Before manufacturing cars, the company creates a design or blueprint. That blueprint defines what a car can have, such as a brand, color, and speed.
+
+For example, imagine we want to create a class for a car.
+class Car:
+    pass
+
+
+class — a Python keyword used to define a class.
+Car — the name of our class.
+: — indicates the beginning of the class body.
+pass — means we are leaving the class body empty for now.
+
+
+2. What is an object?
+An object is an instance of a class.
+If Car is the blueprint, individual cars created from that blueprint 
+are objects.
+
+class Car:
+    pass
+
+car1 = Car()
+car2 = Car()
+
+What are attributes in Python?
+Attributes are variables or other named properties associated with an object or a class.
+For example, a car has a brand, color, and speed. These can be represented as attributes.
+
+**Question: What is `self` in Python?**
+
+**Answer:** `self` refers to the current object of a class. It allows us to access the attributes and
+methods of that particular object. 
+Python automatically passes the current object as the first argument when we call an instance method.
+
+** class attributes always always share all of this with anyone
